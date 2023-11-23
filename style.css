@@ -1,7 +1,46 @@
-.card{
-    margin: 10px auto;
+body{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/151/036/non_2x/light-blue-pink-orange-and-purple-gradient-background-vector.jpg);
+}
+
+
+
+.Lexend {
+    font-family: Lexend;
+}
+
+.title {
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.card {
+    margin: 200px auto;
+    border: none;
+    width: 35rem;
+}
+
+.card-img {
+    height: 35rem;
+}
+
+.btn {
     border: none;
 }
+
+.btn:hover {
+    background-color: rgb(235, 235, 235);
+    transition: 0.7s;
+    letter-spacing: 5px;
+}
+
+.btn:not(:hover) {
+    transition: 0.7s;
+    letter-spacing: normal;
+}
+
 #generate{
     border-radius: 0 0 5px 5px;
 }
