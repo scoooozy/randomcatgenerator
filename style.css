@@ -18,7 +18,8 @@ body{
 
 .card {
     margin: 200px auto;
-    border: none;
+    border-width: 2px;
+    border-color: white;
     width: 35rem;
 }
 
