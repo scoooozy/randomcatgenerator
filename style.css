@@ -4,7 +4,10 @@ body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/013/151/036/non_2x/light-blue-pink-orange-and-purple-gradient-background-vector.jpg);
 }
 
-
+.center {
+    display: flex;
+    justify-content: center;
+}
 
 .Lexend {
     font-family: Lexend;
@@ -17,18 +20,22 @@ body{
 }
 
 .card {
-    margin: 200px auto;
-    border-width: 2px;
+    margin: 1% auto;
+    border-width: 1px;
     border-color: white;
     width: 35rem;
 }
 
 .card-img {
     height: 35rem;
+    object-fit: cover;
 }
 
 .btn {
     border: none;
+    background: none;
+    letter-spacing: 1px;
+    height: 50px;
 }
 
 .btn:hover {
@@ -39,9 +46,26 @@ body{
 
 .btn:not(:hover) {
     transition: 0.7s;
-    letter-spacing: normal;
+    letter-spacing: 1px;
 }
 
 #generate{
     border-radius: 0 0 5px 5px;
+}
+
+/* Cat-Head Animations */
+
+.cat-head {
+    width: auto;
+    height: auto;
+    animation: spinningCat 8s linear infinite;
+}
+
+@keyframes spinningCat{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
